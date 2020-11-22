@@ -53,17 +53,7 @@ access_token_secret: [access_token_secret]
 
 
 ##### Deploy Cloud Function
-chmod +x deploy_function.sh; ./deploy_function.sh
-
-
-
-
-
-
-
-
-
-
+`chmod +x deploy_function.sh; ./deploy_function.sh`
 
 
 
