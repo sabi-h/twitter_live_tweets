@@ -2,6 +2,9 @@
 [Link to Dashboard (DataStudio)](https://datastudio.google.com/s/vIU2tiJqnk4)
 
 
+#### GCP Architecture
+![GCP Architecture](architecture.png)
+
 #### Setup (MacOS)
 Instructions to setup this project in your local enviornment 
 
