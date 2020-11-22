@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-11-22T12:52:10.025Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.10.0" etag="TIM4WWKgfRBuiS65vSzZ" type="github"><diagram id="4jCnutZjacN5yt14PL3i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-22T13:00:46.106Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="N7SlRkkEUrWljwz8Wqc0" version="13.10.0" type="github">
+  <diagram id="4jCnutZjacN5yt14PL3i" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="160" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-6" value="HTTP Cloud Function&lt;br style=&quot;font-size: 9px;&quot;&gt;Calls Twitter API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="wPLXdtdAZxelJxfk9JXq-15">
+          <mxGeometry x="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-7" value="Cloud Storage (CSV)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=9;" vertex="1" parent="wPLXdtdAZxelJxfk9JXq-15">
+          <mxGeometry x="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="wPLXdtdAZxelJxfk9JXq-15" source="wPLXdtdAZxelJxfk9JXq-6" target="wPLXdtdAZxelJxfk9JXq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-9" value="BigQuery (External Table)" style="whiteSpace=wrap;html=1;rounded=1;fontSize=9;" vertex="1" parent="wPLXdtdAZxelJxfk9JXq-15">
+          <mxGeometry x="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="wPLXdtdAZxelJxfk9JXq-15" source="wPLXdtdAZxelJxfk9JXq-7" target="wPLXdtdAZxelJxfk9JXq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-11" value="DataStudio" style="whiteSpace=wrap;html=1;rounded=1;fontSize=9;" vertex="1" parent="wPLXdtdAZxelJxfk9JXq-15">
+          <mxGeometry x="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="wPLXdtdAZxelJxfk9JXq-15" source="wPLXdtdAZxelJxfk9JXq-9" target="wPLXdtdAZxelJxfk9JXq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="wPLXdtdAZxelJxfk9JXq-15" source="wPLXdtdAZxelJxfk9JXq-13" target="wPLXdtdAZxelJxfk9JXq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPLXdtdAZxelJxfk9JXq-13" value="Cloud Schedular - Calls Cloud Function every min" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="wPLXdtdAZxelJxfk9JXq-15">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
