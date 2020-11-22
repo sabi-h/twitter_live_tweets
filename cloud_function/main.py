@@ -65,37 +65,15 @@ def main(request):
     df = pd.DataFrame(data, columns=columns)
     df['hashtag'] = hashtag
 
+    if df.shape[0] == 0:
+        return
+
     df.to_csv(f'gs://{BUCKET}/recent_tweets.csv', index=False)
 
 
 
 if __name__ == '__main__':
     result = main(request='')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
