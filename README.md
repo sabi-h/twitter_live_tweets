@@ -11,7 +11,7 @@ Instructions to setup this project in your local enviornment
 
 
 ##### Clone the repository:
-git clone https://github.com/sabih-h/twitter_live_tweets.git
+`git clone https://github.com/sabih-h/twitter_live_tweets.git`
 
 
 ##### Change to the directory:
@@ -19,15 +19,15 @@ git clone https://github.com/sabih-h/twitter_live_tweets.git
 
 
 ##### Create virtual enviornment with python3:
-python3 -m venv venv
+`python3 -m venv venv`
 
 
 ##### Activate virtual enviornment:
-source venv/bin/activate
+`source venv/bin/activate`
 
 
 ##### Install Developer dependencies:
-python -m pip install -r requirements-dev.txt
+`python -m pip install -r requirements-dev.txt`
 
 
 ##### Change to the Cloud Function directory:
