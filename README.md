@@ -1,6 +1,6 @@
 #### Most Recent #London Tweets
 Cloud-based solution to showcase a stream of Twitter tweets that include the hashtag #london to end-users with refresh time of 1 minute.
-[Link to Dashboard (DataStudio)](https://datastudio.google.com/s/vIU2tiJqnk4)
+[Link to Dashboard (DataStudio - Discontinued)](https://datastudio.google.com/s/vIU2tiJqnk4)
 
 
 #### GCP Architecture
